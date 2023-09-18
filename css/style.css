@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 100vh;
+}
+
+/*=========================================================container-general====================================================================*/
+
+.container-general{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    border-radius: 30px;
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(167,181,179,0.28); 
+    box-shadow: 5px 5px 15px -2px rgba(167,181,179,0.28);
+}
+
+/*=========================================================container-body-left====================================================================*/
+
+.container-header-left{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));    
+    border-radius: 30px;
+    
+}
+
+.left-header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 2rem;
+} 
+
+.container-body-left{
+    display: flex;
+    justify-content: center;
+
+}
+
+.content-left-item{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));   
+    border-radius: 50%; 
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.left-body-title{
+    font-size: 80px;
+}
+
+.left-body-description{
+    color: aliceblue;
+    opacity: 0.5;
+}
+
+.container-footer-left{
+    color: aliceblue;
+    margin-top: 2rem;
+}
+
+.container-footer-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container-footer-description{
+    text-align: center;
+    opacity: 0.5;
+}
+
+/*=========================================================container-body-right====================================================================*/
+
+.container-body-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-body-element{
+    width: 80%;
+    height: 90%;
+}
+
+.container-item-right-summary{
+    color: rgb(55, 41, 95);
+    margin-bottom: 3rem;
+}
+
+.container-item-right{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 10%;
+   border-radius: 10px;
+   margin-top: 1rem;
+}
+
+.item1{
+    background-color: hsl(0, 100%, 67%, 0.05);
+}
+
+.item2{
+    background-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.item3{
+    background-color: hsl(166, 100%, 37%, 0.05);
+}
+
+.item4{
+    background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+
+.container-right-element1{
+    display: flex;
+}
+
+.container-right-element1 :nth-child(1){
+    margin: 0 20px;
+}
+
+.container-right-element2{
+    margin: 0 20px;
+}
+
+.fa-bolt,.container-item-right-title1{
+    color: hsl(0, 100%, 67%);
+}
+
+.fa-brain,.container-item-right-title2{
+    color: hsl(39, 100%, 56%);
+}
+
+.fa-comment,.container-item-right-title3{
+    color: hsl(166, 100%, 37%)
+}
+
+.fa-eye,.container-item-right-title4{
+    color: hsl(234, 85%, 45%)
+}
+
+.container-item-right-description{
+    color: rgb(55, 41, 95);
+}
+
+.container-item-right-description span{
+    color: hsl(0, 0%, 3%, 0.5);
+}
+
+/*=========================================================container-footer-right====================================================================*/
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    border-radius: 100px;
+    margin-top: 3.5rem;
+    color: #fff;
+    background: linear-gradient(90deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 35%, hsl(241, 81%, 54%) 100%);
+}
