@@ -181,5 +181,12 @@ body{
     border-radius: 100px;
     margin-top: 3.5rem;
     color: #fff;
+    background-color: rgb(42, 42, 77);
+}
+
+.btn:hover{
     background: linear-gradient(90deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 35%, hsl(241, 81%, 54%) 100%);
+    transition: 10s ease-in-out;
+    cursor: pointer;
+    
 }
