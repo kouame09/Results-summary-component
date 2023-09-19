@@ -40,6 +40,7 @@ body{
     justify-content: center;
     color: white;
     margin-top: 2rem;
+    opacity: 0.7;
 } 
 
 .container-body-left{
@@ -134,6 +135,7 @@ body{
 
 .container-right-element1{
     display: flex;
+    align-items: center;
 }
 
 .container-right-element1 :nth-child(1){
